@@ -1,0 +1,18 @@
+KNN :
+
+- K's Nearest Neighbours
+
+- pattern recognition algorithm
+
+- when a set of data points on a graph are split between 2 regions 
+  and one point (given point) lies on the boundary, it can help 
+  decide which category to put it into
+
+- Steps :
+
+	1. choose number of neighbours (K) to the given point
+	2. neighbours will be the K closest points to the given
+	   point wrt distance
+	3. count the number of neighbours falling into each region
+	4. assign a data point to the region with most neighbours
+	   (can be any if equal)

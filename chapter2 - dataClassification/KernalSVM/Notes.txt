@@ -1,0 +1,9 @@
+Kernal SVM :
+
+- For non linear kernals (non linearly seperable data points)
+
+- Introduces a new axis along which the data points can be seperated
+
+e.g : linear, poly, rbf, sigmoid, precomputed, gaussian
+
+- Imroves accuracy in some cases

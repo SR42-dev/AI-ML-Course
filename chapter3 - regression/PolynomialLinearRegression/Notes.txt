@@ -1,0 +1,7 @@
+Polynomial regression :
+
+- Used for non linear relationships between dependent & independent variables
+
+- Need not be in y = summation(bnxn) format
+
+- Estimate requirement by viewing scatter plot of data

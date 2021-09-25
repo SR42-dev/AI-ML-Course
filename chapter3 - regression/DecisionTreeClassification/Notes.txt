@@ -1,0 +1,30 @@
+Decision tree classification :
+
+- Machine learning algorithm that simulates human thinking
+
+- event -> possibilities -> choice -> more possibilities -> choices -> result
+
+- Parts :
+
+	- Node : Points where the tree splits
+
+	- Edges : Results of if statements at nodes
+
+	- Root : First node
+
+	- Leaves : Terminal nodes containing the decisions
+
+- Building a decision tree :
+
+	- Relevant attribute selection 
+		- Methods : information gain & gini index
+		- Information gain : max change when classified based on an attribute
+			- Info gain =  changeInEntropy(S)- [(Weighted Avg) *Entropy(each feature)]
+			- changeInEntropy(s)= -P(yes)log2 P(yes)- P(no) log2 P(no)
+		- Gini index : 
+			- GI = 1 - summation((P(x))^2)
+
+	- Steps :
+		1. Select relevant attribute for data point seperation
+		2. Use it as a condition for a node
+		3. Repeat steps 1-2 recursively till there are no attributes left/no more instances left/all tuples belong to the same attribute

@@ -1,0 +1,7 @@
+Logistic regression :
+
+- Similar to multiple linear regression, except the dependent variable is a catagorical value instead of numerical
+
+- Achieved by setting thresholds for continuous distributions
+
+- Usually used for outputs where a Yes/No type value is desired

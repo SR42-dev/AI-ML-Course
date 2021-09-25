@@ -1,0 +1,15 @@
+Multiple linear regression :
+
+- y (dependent variable) = b0 (constant) + b1x1 (coefficient * independent variable) + b2x2 + ... + bnxn
+
+- Considers multiple attributes at the same time
+
+- Multidimensional
+
+- Label encoders assign numeric values to catagorical data
+
+- One hot encoding creates colums for label encoded data and assigns 1/0 for data corresponding to any given column
+
+- P > |t| => High value corresponds to less relation between independent variable and dependent variable (low influence)
+
+

@@ -1,0 +1,35 @@
+Hierarchical clustering :
+
+- 2 types : agglomerative (bottom-up), decisive (top-down)
+
+- Steps for agglomerative hierarchical clustering :
+	
+	1. Consider a set of n data points
+	2. Each data point is considered a cluster
+	3. Calculate inter data point distances and find the required one
+	4. Cluster those two data points
+	5. Repeat steps 3 and 4 until all data points merge into a single cluster
+
+- Calculating inter-data point/cluster distances
+	
+	- Methods :
+		
+		1. Closest points
+		2. Furthest points
+		3. Average distances
+		4. Distance between centroids
+
+	- Cluster location is considered to be that of it's centroid
+
+- Dendograms 
+	
+	- X-axis : data points, Y-axis : euclidean distances
+	- <look up images>
+
+- To control number of clusters, set a threshold for euclidean distance
+
+- Number of dendrogram lines intersected by a line drawn at threshold euclidean distance gives the number of clusters
+
+- Optimal number of clusters can be obtained by choosing threshold such that the threshold line intersects the largest set of euclidean distances at the center
+
+	 

@@ -1,0 +1,6 @@
+Random forest regression :
+
+- Average of multiple decision tree predictions
+
+- Number of decision trees => number of estimators
+

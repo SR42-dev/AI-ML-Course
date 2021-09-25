@@ -1,0 +1,11 @@
+Simple linear regression :
+
+- y (dependent variable) = b0 (constant) + b1x1 (coefficient * independent variable)
+
+- Line equation for data point seperation calculated using error terms 
+
+- Distance of data point from line || to y axis = error term for that point
+ 
+- All possible lines are plotted and the one with the least error rate is selected
+
+- Error rate = RMS value of all error terms

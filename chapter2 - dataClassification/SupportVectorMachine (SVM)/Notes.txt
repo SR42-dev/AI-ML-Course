@@ -1,0 +1,13 @@
+SVM :
+
+- Support Vector Machine
+
+- model to create a line to cleanly seperate 2 regions on a graph
+  to classify data points for training and testing
+
+- optimal line required
+
+- Generates equidistant line with maximum margin between line and 
+  its nearest points (denoted with support vectors)
+
+

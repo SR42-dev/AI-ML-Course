@@ -1,0 +1,8 @@
+Support vector regression :
+
+- Attempts to fit any given model to a dataset such that the error 
+  rate is as minimal as possible or at least within a threshold
+
+- Regressor kernel - how the model fits the training data over the
+  line (e.g : radial basic function, linear, gaussian etc.)
+

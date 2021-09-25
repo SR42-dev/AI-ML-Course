@@ -1,0 +1,7 @@
+Decision tree regression :
+
+- Decision tree - decision flowchart
+
+- Values are seperated by regions corresponding to certain conditions as opposed to polynomial curves
+
+- Conditions are used instead of plots

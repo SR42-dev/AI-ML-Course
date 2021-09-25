@@ -1,0 +1,33 @@
+K-means algorithm :
+
+- Iterative algorithm to partition dataset into K pre-defined,
+  distinct, non-overlapping, sub-groups
+
+- Sorts data into clusters, easier to manage
+
+- Steps :
+
+	1. Choose K
+	2. Select K points (to become centroids for the cluster)
+	   (not necessarily part of the dataset)
+	3. Assign each data point to the closest centroid
+	4. Compute the new centroids after assignment
+	5. Reassign each data point to the new closest centroid
+	   (in case of reassignment, go back to step 4 and repeat)
+	6. Repeat steps 4 and 5 till the centroid no longer moves
+	7. This is the true centroid for any given cluster
+
+- Random initialization trap :
+
+	- When different initialisations give different clusters
+	- Solved by K-means++
+
+- Selecting the right number of clusters
+
+	- WCSS - With in Cluster Sum of Square matrix
+	- WCSS = summation((distance between points in cluster 1 and centroid)^2)
+		 + summation((distance between points in cluster 2 and centroid)^2)
+		 + ...
+	- Number of clusters v/s WCSS forms an asymptote
+	- Optimal number of clusters -> at the elbow of the curve
+	
